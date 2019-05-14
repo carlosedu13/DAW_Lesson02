@@ -2,6 +2,7 @@ Universidade Paulista - Desenvolvimento em Ambiente Web
 Carlos Eduardo da Silva Turma: CC1P04 RA: F037266
 
 Exercício 2 - Formulário UNIP
+Repositório para visualizar este exercício: https://github.com/carlosedu13/DAW_Lesson02
 
 Segue a codificação do arquivo index.html:
 
