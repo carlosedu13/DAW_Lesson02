@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato UNIP</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <img src="assets/img/logo.png" alt="Logo UNIP" class="logo">
+        <h1>Contato UNIP</h1>
+        <hr>
+        <div class="border">
+            <h2>CAMPUS PAULISTA</h2>
+            <p>Av.Paulista, 900 - Cerqueira César - São Paulo - SP <br>
+                CEP: 01310-100 - Tel:(11)3170-3700
+            </p>
+        </div>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td> <label for="nome">Nome:</label> </td>
+                    <td> <input type="text" name="nome" id="nome" size="60" placeholder="Carlos Eduardo da silva"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="email">Email:</label> </td>
+                    <td> <input type="email" name="email" id="email" size="60" placeholder="carlos.eduardo@email.com"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="celular">Celular:</label> </td>
+                    <td> <input type="tel" name="celular" id="celular" size="60" placeholder="(XX)XXXX-XXXX"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="assunto">Assunto:</label> </td>
+                    <td> <select name="assunto" id="assunto">
+                        <option value="Matriculas">Matrículas</option>
+                        <option value="Cursos">Cursos</option>
+                        <option value="Vestibular">Vestibular</option>
+                        <option value="Outros">Outros Assuntos</option>
+                    </select> </td>
+                </tr>
+                <tr>
+                    <td> <label for="sexo">Sexo:</label> </td>
+                    <td> <input type="radio" name="genero" id="masculino" checked>Masculino
+                    <input type="radio" name="genero" id="feminino">Feminino</td>
+                </tr>
+                <tr>
+                    <td> <label for="contato">Contato via:</label> </td>
+                    <td> <input type="checkbox" name="contato" id="contato">E-mail
+                    <input type="checkbox" name="contato" id="contato">Telefone
+                    <input type="checkbox" name="contato" id="contato">Whatsapp </td>
+                </tr>
+                <tr>
+                    <td> <label for="mensagem">Mensagem:</label> </td>
+                    <td> <textarea name="" id="" cols="60" rows="5" placeholder="Sua mensagem aqui"></textarea> </td>
+                </tr>
+            </table>
+            <hr>
+            <div class="text-center">
+                <button class="sucesso">Enviar</button>
+                <button class="alerta">Apagar</button>
+            </div>
+        </form>
+    </body>
+</html>

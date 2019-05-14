@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: table;
+}
+
+.logo{
+    width: 150px;
+}
+
+.border{
+    border: 1px solid #141414;
+    padding: 10px;
+}
+
+h1{
+    position: absolute;
+    bottom: 90vh;
+    left: 170px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+p{
+    font-weight: 500;
+}
+
+div.text-center{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+}
+
+button.sucesso:hover{
+    background-color: #5cb85c;
+}
+
+button.alerta:hover{
+    background-color: #d9534f;
+}
+
+@media (max-width:600px){
+    h1{
+        position: absolute;
+        bottom: 88vh;
+        left: 170px;
+    }
+}
